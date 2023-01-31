@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Personal Website</title>
+        <link rel="stylesheet" href="css/style.css">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <script src="https://kit.fontawesome.com/a418d4108d.js" crossorigin="anonymous"></script>
+        <style>
+            * {
+              box-sizing: border-box;
+            }
+            
+            body {
+              font-family:'Times New Roman', Times, serif;
+            }
+            
+            /* Style the header */
+            header {
+              background-color: #5c1010;
+              padding: 20px;
+              text-align: center;
+              font-size: 20px;
+              color: white;
+            }
+            
+            /* Create two columns/boxes that floats next to each other */
+            nav 
+            {
+              float: left;
+              width: 100%;
+              height: 100px;
+              background: #940000;
+              padding: 20px;
+            }
+            
+            
+            article
+            {
+              float: left;
+              padding: 20px;
+              width: 70%;
+              background-color: #9e3f3f;
+              height: 1200px; /* only for demonstration, should be removed */
+            }
+    
+            aside
+            {
+                float: right;
+                padding: 20px;
+                width: 30%;
+                background-color: #b85f5f;
+                height:1200px;
+            }
+            
+            /* Clear floats after the columns */
+            section::after {
+              content: "";
+              display: table;
+              clear: both;
+            }
+            
+            /* Style the footer */
+            footer {
+              background-color:#b88c8c;
+              padding: 10px;
+              text-align: center;
+              color: white;
+            }
+            
+            /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+            @media (max-width: 600px) {
+              nav, article {
+                width: 100%;
+                height: auto;
+              }
+            }
+            </style>
+    </head>
+
+<body>
+
+    <header>
+        <h2 align="center"><img src="images/header.svg" width="1400px"></h2>
+        <h2 style="color:white" align="center">EDUCATION</h2>
+      </header>
+
+        <nav>
+            <p align="center" style="color:black" > 
+                <a href="index.html" style="background-color: #560d0d; 
+                border: none;
+                color: white;
+                padding: 11px 27px;
+                text-align: center;
+                font-size: 16px;
+                margin: 3px 1px;
+                cursor: pointer;">HOME</a> 
+        
+                <a href="biodata.html" style="background-color: #560d0d; 
+                border: none;
+                color: white;
+                padding: 11px 27px;
+                text-align: center;
+                font-size: 16px;
+                margin: 3px 1px;
+                cursor: pointer;">BIODATA</a> 
+        
+                <a href="experience.html" style="background-color:#560d0d; 
+                border: none;
+                color: white;
+                padding: 11px 27px;
+                text-align: center; 
+                font-size: 16px;
+                margin: 3px 1px;
+                cursor: pointer;">EXPERIENCE</a> 
+        
+                <a href="academic.html" style="background-color: #560d0d; 
+                border: none;
+                color: white;
+                padding: 11px 27px;
+                text-align: center;
+                font-size: 16px;
+                margin: 3px 1px;
+                cursor: pointer;">EDUCATION</a> 
+        
+                <a href="skills.html" style="background-color: #560d0d; 
+                border: none;
+                color: white;
+                padding: 11px 27px;
+                text-align: center;
+                font-size: 16px;
+                margin: 3px 1px;
+                cursor: pointer;">SKILLS</a> 
+        
+                <a href="gallery.html" style="background-color: #560d0d; 
+                border: none;
+                color: white;
+                padding: 11px 27px;
+                text-align: center;
+                font-size: 16px;
+                margin: 3px 1px;
+                cursor: pointer;">GALLERY</a> 
+        
+                <a href="familyfatin.html" style="background-color:#560d0d; 
+                border: none;
+                color: white;
+                padding: 11px 27px;
+                text-align: center;
+                font-size: 16px;
+                margin: 3px 1px;
+                cursor: pointer;">FAMILY</a> 
+        
+        </nav>
+        <section>
+            <article>
+                <center><p hspace="12"><font face="Open Sans" size="4px" color="whitesmoke"><b><big></big></b>
+                    <div class="w3-panel w3-leftbar w3-sand">
+            
+            <tr align="center"></tr>
+            
+                <p><strong>BACHELOR OF BUSINESS ADMINISTRATIONS
+                    <br>(HONS.) BUSINESS ECONOMICS<br>UiTM 
+                
+                Kampus Kota Bharu<br><br>CGPA : 3.98</p>
+                <h1 align="center"><img src="images/UITM-logo-20DC2B3831-seeklogo.com.png" width="100px"></h1>
+                
+                <br>
+                <hr>
+                <br>
+                
+                <p><strong>MALAYSIAN MATRICULATION 
+                
+                PROGRAMME</strong><br>Kolej Matrikulasi 
+                
+                Negeri Sembilan<br><br>CGPA : 3.90</p>
+                <h1 align="center"><img src="images/channels4_profile.jpg" width="100px"></h1>
+            
+                <hr>
+                <br>
+                
+                <p><strong>MALAYSIAN CERTIFICATE OF EDUCATION 
+                
+                (SPM)</strong><br>Sm Sains Batu Pahat<br><br>SPM 5A+ 4A</p>
+                <h1 align="center"><img src="images/800px-SM_Sains_Batu_Pahat.jpg" width="100px" style=background-color:black; color: black;></h1>
+            
+                
+                <hr>
+                <br>
+                
+                <p><strong>PRIMARY SCHOOL 
+                
+                (UPSR)</strong><br>Sekolah Rendah Agama Bersepadu Daerah Pontian<br><br>UPSR 5A</p>
+                <h1 align="center"><img src="images/download.png" width="100px"></h1>
+                <br>
+            </article>
+
+            <aside>
+                <h2 style="color:whitesmoke; font-size: x-large; text-align: center;">CONTACT ME</h2>
+                <center>
+                <p><a href="https://www.tiktok.com/@qxflwer?_t=8YsQTP2hPmL&_r=1"><i class="fa-brands fa-5x fa-tiktok"></i></a></p>
+        
+                <p><a href="https://instagram.com/fatinnajhh"><i class="fa-brands fa-5x fa-instagram"></i></a></p>
+
+                <p><a href="https://wasap.my/601116671490"><i class="fa-brands fa-5x fa-whatsapp"></i></a></p></center>
+                </aside>
+            </section>
+
+        <footer>
+            <td colspan="4" bgcolor="#243447" style="font-size:120% ; text-align:center">
+            <p align="center" style="color:whitesmoke" ><small>&copy; 2023 Nur Fatin Najihah binti Sahrizal</small></p>
+            <p align="center" style="color:whitesmoke" ><small>This website are for the purpose of assignment on HTML only. 
+            </td>
+            <br>
+        </footer>
+
+
+</body>
+</html>

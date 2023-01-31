@@ -1,0 +1,75 @@
+p
+    {
+        color:gainsboro;
+    }
+
+body
+    {
+        background-color: white;
+    }
+
+
+table,tr,td,th
+    {
+        border-collapse:collapse;
+        border: 2px solid black;
+    }
+
+table
+        {
+            width: 800px;
+            text-align: center;
+        }
+
+tr
+    {
+        background-color:blanchedalmond;
+    }
+
+th
+    {
+        background-color: darkred;
+    }
+
+tr:nth-child(odd)
+    {
+        background: color darksalmon ;
+    }
+tr:hover
+    {
+        background-color:lightcoral;
+    }
+td
+    {
+        padding: 3px;
+    }
+
+
+.fa-tiktok:hover
+{
+    color: #ffffff;
+}
+
+.fa-tiktok
+{
+    color: black;
+}
+
+.fa-instagram:hover
+    {
+        color:white;
+    }
+
+.fa-instagram
+    {
+        color:darkred;
+    }
+
+.fa-whatsapp:hover
+    {
+        color:white;
+    }
+.fa-whatsapp
+    {
+        color:darkgreen;
+    }

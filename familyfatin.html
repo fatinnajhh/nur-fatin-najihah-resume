@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Personal Website</title>
+        <link rel="stylesheet" href="css/style.css">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <script src="https://kit.fontawesome.com/a418d4108d.js" crossorigin="anonymous"></script>
+        <style>
+          * {
+            box-sizing: border-box;
+          }
+          
+          body {
+            font-family:'Times New Roman', Times, serif;
+          }
+          
+          /* Style the header */
+          header {
+            background-color: #5c1010;
+            padding: 20px;
+            text-align: center;
+            font-size: 20px;
+            color: white;
+          }
+          
+          /* Create two columns/boxes that floats next to each other */
+          nav 
+          {
+            float: left;
+            width: 100%;
+            height: 100px;
+            background: #940000;
+            padding: 20px;
+          }
+          
+          
+          article
+          {
+            float: left;
+            padding: 20px;
+            width: 100%;
+            background-color: #9e3f3f;
+            height: 2200px; /* only for demonstration, should be removed */
+          }
+          
+          /* Clear floats after the columns */
+          section::after {
+            content: "";
+            display: table;
+            clear: both;
+          }
+          
+          /* Style the footer */
+          footer {
+            background-color:#b88c8c;
+            padding: 10px;
+            text-align: center;
+            color: white;
+          }
+          
+          /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+          @media (max-width: 600px) {
+            nav, article {
+              width: 100%;
+              height: auto;
+            }
+          }
+          </style>
+    </head>
+
+<body>
+  <header>
+    <h2 align="center"><img src="images/header.svg" width="1400px"></h2>
+    <h2 style="color:white" align="center">FAMILY</h2>
+  </header>
+
+    <nav>
+        <p align="center" style="color:black" > 
+            <a href="index.html" style="background-color: #560d0d; 
+            border: none;
+            color: white;
+            padding: 11px 27px;
+            text-align: center;
+            font-size: 16px;
+            margin: 3px 1px;
+            cursor: pointer;">HOME</a> 
+    
+            <a href="biodata.html" style="background-color: #560d0d; 
+            border: none;
+            color: white;
+            padding: 11px 27px;
+            text-align: center;
+            font-size: 16px;
+            margin: 3px 1px;
+            cursor: pointer;">BIODATA</a> 
+    
+            <a href="experience.html" style="background-color:#560d0d; 
+            border: none;
+            color: white;
+            padding: 11px 27px;
+            text-align: center; 
+            font-size: 16px;
+            margin: 3px 1px;
+            cursor: pointer;">EXPERIENCE</a> 
+    
+            <a href="academic.html" style="background-color: #560d0d; 
+            border: none;
+            color: white;
+            padding: 11px 27px;
+            text-align: center;
+            font-size: 16px;
+            margin: 3px 1px;
+            cursor: pointer;">EDUCATION</a> 
+    
+            <a href="skills.html" style="background-color: #560d0d; 
+            border: none;
+            color: white;
+            padding: 11px 27px;
+            text-align: center;
+            font-size: 16px;
+            margin: 3px 1px;
+            cursor: pointer;">SKILLS</a> 
+    
+            <a href="gallery.html" style="background-color: #560d0d; 
+            border: none;
+            color: white;
+            padding: 11px 27px;
+            text-align: center;
+            font-size: 16px;
+            margin: 3px 1px;
+            cursor: pointer;">GALLERY</a> 
+    
+            <a href="familyfatin.html" style="background-color:#560d0d; 
+            border: none;
+            color: white;
+            padding: 11px 27px;
+            text-align: center;
+            font-size: 16px;
+            margin: 3px 1px;
+            cursor: pointer;">FAMILY</a> 
+    
+    </nav>
+
+    <section>
+      <article>
+        <!-- First Photo Grid-->
+      <br>
+      <center><p hspace="10"><font face="Open Sans" size="5px" color="white"><b><big>MY PARENTS</big></b><br>
+      </font></p></center>
+      <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+      <div class="w3-quarter">
+      <h1 align="center"><img src="images/mama ayah.jpg" alt="Sandwich" style="width:40%"></h1>
+      <table align="center" style="width:80%">
+        <tr>
+        <td><strong>FATHER</strong></td>
+        <td></td>
+        <td><strong>MOTHER</strong></td>
+        </tr>
+        <tr>
+        <td>Sahrizal bin Marsam</td>
+        <td><strong>NAME</strong></td>
+        <td>Noraihan binti Jamiran</td>
+        </tr>
+        <tr>
+        <td>50 years</td>
+        <td><strong>AGE</strong></td>
+        <td>48 years</td>
+        </tr>
+        <tr>
+        <td>Male</td>
+        <td><strong>GENDER</strong></td>
+        <td>Female</td>
+        </tr>
+        <tr>
+        <td>Malaysian</td>
+        <td><strong>NATIONALITY</strong></td>
+        <td>Malaysian</td>
+        </tr>
+        <tr>
+        <td>Malay</td>
+        <td><strong>RACE</strong></td>
+        <td>Malay</td>
+        </tr>
+        <tr>
+        <td>Self-employed</td>
+        <td><strong>OCCUPATION</strong></td>
+        <td>Clerk</td>
+        </tr>
+        </table>											
+
+        </div>
+
+        <br>
+    <center><p hspace="10"><font face="Open Sans" size="5px" color="white"><b><big>MY SIBLINGS</big></b><br>
+    </font></p></center>
+
+    <div class="row1" style="margin-right: 0px; margin-bottom: 0px; margin-left: 0px; text-align: center; padding: 0px;  font-size: 20px; line-height: 10px;">
+          
+          
+      <div class="container" style="display: flex;
+                            align-items: center;
+                            justify-content: center;">
+              <div class="text" style="color: black;
+                                width: 500px;
+                                padding-left: 20px;
+                                font: italic 10px 'Fira Sans', serif;">
+                    <div style="
+                        background-color: #243447;
+                        border: 10px blue;
+                        border-radius: 100px;
+                        padding: 50px;
+                        margin: 10px;
+                        text-align: center;">
+                        <h1 style="color: white;">ME</h1>
+                        <img class="pic-border" id="pic3" style="
+                            width: 300px;
+                              border: 10px blue;
+                              border-radius: 100px;
+                              text-align: center;" 
+                              img src="images/fatin.jpg" width="100%" alt="..." /></img>
+                      
+                              <h2 style="color: white; text-align: center;">NUR FATIN NAJIHAH BINTI SAHRIZAL</h2>
+                                <center><ul>
+                                <li style="color: white; text-align: center; font-size:larger;">21 years old</li>
+                                <li style="color: white; text-align: center; font-size:larger;">Female</li>
+                                <li style="color: white; text-align: center; font-size:larger;">Student</li>
+                                <li style="color: white; text-align: center; font-size:larger;">Daughter</li>
+                                </ul></center>
+                                  
+                                </span></h2>
+                                <br>
+
+                        <h1 style="color: white;">AHNAF</h1>
+                        <img class="pic-border" id="picalong" style="
+                              width: 300px;
+                                border: 10px blue;
+                                border-radius: 100px;
+                              text-align: center;" 
+                              img src="images/amy.jpg" width="100%" alt="..." /></img>
+
+                              <h2 style="color: white; text-align: center;">AHNAF SYAHMI BIN SAHRIZAL</h2>
+                                <center><ul>
+                                <li style="color: white; text-align: center; font-size:larger;">13 years old</li>
+                                <li style="color: white; text-align: center; font-size:larger;">Male</li>
+                                <li style="color: white; text-align: center; font-size:larger;">Student</li>
+                                <li style="color: white; text-align: center; font-size:larger;">Son</li>
+                                </ul></center>
+                                  
+                                </span></h2>
+                                <br>
+
+                      </div>
+                </div>
+              <div class="text" style="color: black;
+                            width: 500px;
+                            padding-left: 20px;
+                            font: italic 10px 'Fira Sans', serif;">
+                        <div style="
+                            background-color:#243447;
+                            border: 10px blue;
+                            border-radius: 100px;
+                            padding: 50px;
+                            margin: 10px;
+                            text-align: center;">
+                        <h1 style="color: white;">FATIHAH</h1>
+                        <img class="pic-border" id="pic3" style="
+                              width: 300px;
+                                border: 10px blue;
+                                border-radius: 100px;
+                                text-align: center;" 
+                              img src="images/pateah.jpg" width="100%" alt="..." /></img>
+                               <h2 style="color: white; text-align: center;">NUR FATIHAH MAISARAH BINTI SAHRIZAL</h2>
+                               <center><ul>
+                               <li style="color: white; text-align: center; font-size:larger;">20 years old</li>
+                               <li style="color: white; text-align: center; font-size:larger;">Female</li>
+                               <li style="color: white; text-align: center; font-size:larger;">Student</li>
+                               <li style="color: white; text-align: center; font-size:larger;">Daughter</li>
+                               </ul></center>
+                                 
+                               </span></h2>
+                               <br>
+
+                            <h1 style="color: white;">ALISYA</h1>
+                            <img class="pic-border" id="picalong" style="
+                                      width: 300px;
+                                      border: 10px blue;
+                                      border-radius: 100px;
+                                      text-align: center;" 
+                                      img src="images/alisya.jpg" width="100%" alt="..." /></img>
+       
+                                     <h2 style="color: white; text-align: center;">NUR ALISYA HUMAIRAH BINTI SAHRIZAL</h2>
+                                       <center><ul>
+                                       <li style="color: white; text-align: center; font-size:larger;">10 years old</li>
+                                       <li style="color: white; text-align: center; font-size:larger;">Female</li>
+                                       <li style="color: white; text-align: center; font-size:larger;">Student</li>
+                                       <li style="color: white; text-align: center; font-size:larger;">Daughter</li>
+                                       </ul></center>
+                                         
+                                       </span></h2>
+                                       <br>
+                          </div>
+                  </div>
+
+                  <div class="text" style="color: black;
+                                  width: 500px;
+                                  padding-left: 20px;
+                                  font: italic 10px 'Fira Sans', serif;">
+                      <div style="
+                      background-color:#243447;
+                      border: 10px blue;
+                      border-radius: 100px;
+                      padding: 50px;
+                      margin: 10px;
+                      text-align: center;">
+                       <h1 style="color: white;">AIMAN</h1>
+                      <img class="pic-border" id="pic3" style="
+                              width: 300px;
+                                border: 10px blue;
+                                border-radius: 100px;
+                              text-align: center;" src="images/aiman.jpg" width="100%" alt="..." /></img>
+                               <h2 style="color: white; text-align: center;">AIMAN SUFFIAN BIN SAHRIZAL</h2>
+                               <center><ul>
+                               <li style="color: white; text-align: center; font-size:larger;">17 years old</li>
+                               <li style="color: white; text-align: center; font-size:larger;">Male</li>
+                               <li style="color: white; text-align: center; font-size:larger;">Student</li>
+                               <li style="color: white; text-align: center; font-size:larger;">Son</li>
+                               </ul></center>
+                                 
+                               </span></h2>
+                               <br>
+
+                               <h1 style="color: white;">AMMAR</h1>
+                               <img class="pic-border" id="picalong" style="
+                                         width: 300px;
+                                         border: 10px blue;
+                                         border-radius: 100px;
+                                         text-align: center;" 
+                                         img src="images/ammar.jpg" width="100%" alt="..." /></img>
+          
+                                        <h2 style="color: white; text-align: center;">MUHAMMAD AMMAR HARIZ BIN SAHRIZAL</h2>
+                                          <center><ul>
+                                          <li style="color: white; text-align: center; font-size:larger;">7 years old</li>
+                                          <li style="color: white; text-align: center; font-size:larger;">Male</li>
+                                          <li style="color: white; text-align: center; font-size:larger;">Student</li>
+                                          <li style="color: white; text-align: center; font-size:larger;">Son</li>
+                                          </ul></center>
+                                            
+                                          </span></h2>
+                                          <br>
+                               
+                      </div>
+                    
+
+                      </div>
+                </div>
+               
+                      </div>
+        </div>
+      </article>
+    </section>
+    <footer>
+      <td colspan="4" bgcolor="#243447" style="font-size:120% ; text-align:center">
+      <p align="center" style="color:whitesmoke" ><small>&copy; 2023 Nur Fatin Najihah binti Sahrizal</small></p>
+      <p align="center" style="color:whitesmoke" ><small>This website are for the purpose of assignment on HTML only. 
+      </td>
+      <br>
+  </footer>
+</body>
+</html>

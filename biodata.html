@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Personal Website</title>
+        <link rel="stylesheet" href="css/style.css">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <script src="https://kit.fontawesome.com/a418d4108d.js" crossorigin="anonymous"></script>
+        <style>
+            * {
+              box-sizing: border-box;
+            }
+            
+            body {
+              font-family:'Times New Roman', Times, serif;
+            }
+            
+            /* Style the header */
+            header {
+              background-color: #5c1010;
+              padding: 20px;
+              text-align: center;
+              font-size: 20px;
+              color: white;
+            }
+            
+            /* Create two columns/boxes that floats next to each other */
+            nav 
+            {
+              float: left;
+              width: 100%;
+              height: 100px;
+              background: #940000;
+              padding: 20px;
+            }
+            
+            
+            article
+            {
+              float: left;
+              padding: 20px;
+              width: 70%;
+              background-color: #9e3f3f;
+              height: 900px; /* only for demonstration, should be removed */
+            }
+
+            aside
+            {
+                float: right;
+                padding: 20px;
+                width: 30%;
+                background-color: #b85f5f;
+                height:900px;
+            }
+            
+            /* Clear floats after the columns */
+            section::after {
+              content: "";
+              display: table;
+              clear: both;
+            }
+            
+            /* Style the footer */
+            footer {
+              background-color:#b88c8c;
+              padding: 10px;
+              text-align: center;
+              color: white;
+            }
+            
+            /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+            @media (max-width: 600px) {
+              nav, article {
+                width: 100%;
+                height: auto;
+              }
+            }
+            </style>
+    </head>
+
+<body>
+  
+
+    <header>
+        <h2 align="center"><img src="images/header.svg" width="1400px"></h2>
+        <h2 style="color:white" align="center">BIODATA</h2>
+      </header>
+
+        <nav>
+            <p align="center" style="color:black" > 
+                <a href="index.html" style="background-color: #560d0d; 
+                border: none;
+                color: white;
+                padding: 11px 27px;
+                text-align: center;
+                font-size: 16px;
+                margin: 3px 1px;
+                cursor: pointer;">HOME</a> 
+        
+                <a href="biodata.html" style="background-color: #560d0d; 
+                border: none;
+                color: white;
+                padding: 11px 27px;
+                text-align: center;
+                font-size: 16px;
+                margin: 3px 1px;
+                cursor: pointer;">BIODATA</a> 
+        
+                <a href="experience.html" style="background-color:#560d0d; 
+                border: none;
+                color: white;
+                padding: 11px 27px;
+                text-align: center; 
+                font-size: 16px;
+                margin: 3px 1px;
+                cursor: pointer;">EXPERIENCE</a> 
+        
+                <a href="academic.html" style="background-color: #560d0d; 
+                border: none;
+                color: white;
+                padding: 11px 27px;
+                text-align: center;
+                font-size: 16px;
+                margin: 3px 1px;
+                cursor: pointer;">EDUCATION</a> 
+        
+                <a href="skills.html" style="background-color: #560d0d; 
+                border: none;
+                color: white;
+                padding: 11px 27px;
+                text-align: center;
+                font-size: 16px;
+                margin: 3px 1px;
+                cursor: pointer;">SKILLS</a> 
+        
+                <a href="gallery.html" style="background-color: #560d0d; 
+                border: none;
+                color: white;
+                padding: 11px 27px;
+                text-align: center;
+                font-size: 16px;
+                margin: 3px 1px;
+                cursor: pointer;">GALLERY</a> 
+        
+                <a href="familyfatin.html" style="background-color:#560d0d; 
+                border: none;
+                color: white;
+                padding: 11px 27px;
+                text-align: center;
+                font-size: 16px;
+                margin: 3px 1px;
+                cursor: pointer;">FAMILY</a> 
+        
+        </nav>
+
+        <section>
+            <article>
+                <center>
+                    <div class="w3-panel w3-leftbar w3-sand">
+                        <p align="center" class="w3-xxlarge w3-serif" style="color: whitesmoke;"><i>"Happiness often sneaks in through a door you didn't know you left open"</i></p>
+                      </div>
+                <center>
+                <table>
+                    <tr>
+                        <td>NAME</td>
+                        <td>NUR FATIN NAJIHAH BINTI SAHRIZAL</td>
+                    </tr>
+                    <tr>
+                        <td>AGE</td>
+                        <td>21 YEARS</td>
+                    </tr>
+                    <tr>
+                        <td>GENDER</td>
+                        <td>FEMALE</td>
+                    </tr>
+                    <tr>
+                        <td>STATUS</td>
+                        <td>SINGLE</td>
+                    </tr>
+                    <tr>
+                        <td>DATE OF BIRTH</td>
+                        <td>23 JANUARY 2002</td>
+                    </tr>
+                    <tr>
+                        <td>PLACE OF BIRTH</td>
+                        <td>HOSPITAL BATU PAHAT</td>
+                    </tr>
+                    <tr>
+                        <td>NATIONALITY</td>
+                        <td>MALAYSIA</td>
+                    </tr>
+                    <tr>
+                        <td>ADDRESS</td>
+                        <td>T/L 6/8, NO 1, KG. BARU, JALAN KAMPUNG LAMA, 82200, BENUT, PONTIAN, JOHOR</td>
+                    </tr>
+                    <tr>
+                        <td>RACE</td>
+                        <td>MALAY</td>
+                    </tr>
+                    <tr>
+                        <td>OCCUPATION</td>
+                        <td>STUDENT</td>
+                    </tr>
+                </table> </center>
+                <br>
+                <hr>
+                <br>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1151.9336877757323!2d103.25543205520172!3d1.6505332315727335!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2smy!4v1674460751507!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>"></iframe>
+ 
+
+                <h1 style="color: white;">No 1, Kampung Baru, Jalan Kampung Lama, 82200, Benut, Pontian, Johor</h1>
+
+                
+              </article>
+
+              <aside>
+                <h2 style="color:whitesmoke; font-size: x-large; text-align: center;">CONTACT ME</h2>
+                <center>
+                <p><a href="https://www.tiktok.com/@qxflwer?_t=8YsQTP2hPmL&_r=1"><i class="fa-brands fa-5x fa-tiktok"></i></a></p>
+        
+                <p><a href="https://instagram.com/fatinnajhh"><i class="fa-brands fa-5x fa-instagram"></i></a></p>
+
+                <p><a href="https://wasap.my/601116671490"><i class="fa-brands fa-5x fa-whatsapp"></i></a></p></center>
+                </aside>
+
+            </section>
+
+            <footer>
+                <td colspan="4" bgcolor="#243447" style="font-size:120% ; text-align:center">
+                <p align="center" style="color:whitesmoke" ><small>&copy; 2023 Nur Fatin Najihah binti Sahrizal</small></p>
+                <p align="center" style="color:whitesmoke" ><small>This website are for the purpose of assignment on HTML only. 
+                </td>
+                <br>
+            </footer>
+</body>
+</html>
+
+   
